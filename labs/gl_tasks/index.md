@@ -19,7 +19,6 @@ Some features include:
 
 ### Create a free GitLab account
 
-Creating an account on GitLab:
 [Sign up](https://gitlab.com/users/sign_up) for an account or log in with your existing GitHub, Google, or other available accounts.
 
 ![image-20230416130512148](images/gl_signup.png)
@@ -54,7 +53,7 @@ Complete the following objectives using all resources available. After the allot
 * In GitLab add the SSH public key
 
   * In the GitLab UI, click your avatar on the top right side. Click **Edit profile**, and select **SSH Keys** on the left. 
-  * Add a new SSH key, by pasting the contents of `$HOME/id_rsa.pub` into the **Key** field
+  * Add a new SSH key, by pasting the contents of `$HOME/.ssh/id_rsa.pub` into the **Key** field
 
 * In AWS CloudShell
 
