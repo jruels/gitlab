@@ -7,3 +7,13 @@ This site includes the labs for the GitLab Pipeline Automation class.
 Lab 1: [Setup AWS environment](labs/aws_setup)  
 Lab 2: [Get familiar with GitLab](labs/gl_tasks)    
 Lab 3: [GitLab merge request](labs/gl_merge)     
+
+
+
+### Day 2
+
+Lab 4: [Git logs, tags, reverts, and resets](labs/git_history)     
+
+Lab 5: [GitLab CICD](labs/gl_devops) 
+
+Lab 6: [GitLab Auto DevOps](labs/gl_autodevops)     
