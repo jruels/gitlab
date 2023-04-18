@@ -25,7 +25,8 @@ To create a Cloud9 environment:
 2. Create a new environment with the following settings:
 3. Name: `gitlab`
 4. Instance type: `t2.micro`
-5. Click “Create”
+5. Change **Platform** to `Ubuntu Server 18.04 LTS`
+6. Click “Create”
 
 Open the Cloud9 IDE
 
