@@ -355,7 +355,7 @@ Let’s move on by adding this to the deployment job in your `.gitlab-ci.yml`:
 deploy:
   environment:
     name: production
-    url: http://your_server_IP
+    url: http://$SERVER_IP
   only:
     - main
 ```
@@ -378,6 +378,7 @@ stages:
 variables:
   TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
   TAG_COMMIT: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+  DOCKER_TLS_CERTDIR: ""
 
 publish:
   image: docker:latest
@@ -404,7 +405,7 @@ deploy:
     - ssh -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "docker run -d -p 80:80 --name my-app $TAG_COMMIT"
   environment:
     name: production
-    url: http://your_server_IP
+    url: http://$SERVER_IP
   only:
     - main
 ```
