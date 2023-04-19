@@ -21,12 +21,13 @@ This lab requires a Cloud9 environment, as CloudShell lacks the required disk sp
 
 To create a Cloud9 environment:
 
-1. Search for and open Cloud9 at the top of the AWS Console.
-2. Create a new environment with the following settings:
-3. Name: `gitlab`
-4. Instance type: `t2.micro`
-5. Change **Platform** to `Ubuntu Server 18.04 LTS`
-6. Click “Create”
+1. In the top right make sure the region is set to **Oregon**
+2. Search for and open Cloud9 at the top of the AWS Console.
+3. Create a new environment with the following settings:
+4. Name: `gitlab`
+5. Instance type: `t2.micro`
+6. Change **Platform** to `Ubuntu Server 18.04 LTS`
+7. Click “Create”
 
 Open the Cloud9 IDE
 
