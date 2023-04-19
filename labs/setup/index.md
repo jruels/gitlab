@@ -1,6 +1,6 @@
 # Lab Setup 
-## MacOS 
-Download `lab.pem` from the `keys` directory
+## Cloud9
+In the Cloud9 terminal download the `lab.pem` using the command from the spreadsheet. 
 
 ### Set permission on SSH key 
 ```
@@ -12,18 +12,3 @@ The username for SSH is `ubuntu`
 ```
 ssh -i /path/to/lab.pem ubuntu@<LAB IP> 
 ```
-
-
-## Windows 
-Download `lab.ppk` from `keys` directory
-
-Open Putty and configure a new session. 
-  
-![](index/C4EC1E64-175D-4C84-8C49-D938337FA35A%202.png)
-
-Expand “Connection_SSH_Auth and then specify the PPK file 
-![](index/6FFB137C-1AD8-48A1-97E6-F5F6DA4BC55B%202.png)
-
- Now save your session    
-
-![](index/FD3BA694-FD69-4C86-8EAF-4D5FC813EABA%202.png)
