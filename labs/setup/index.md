@@ -1,6 +1,6 @@
 # Lab Setup 
-## Cloud9
-In the Cloud9 terminal download the `lab.pem` using the command from the spreadsheet. 
+## CloudShell
+In the CloudShell terminal download the `lab.pem` using the command from the spreadsheet. 
 
 ### Set permission on SSH key 
 ```
