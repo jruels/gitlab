@@ -354,7 +354,6 @@ The deployment ultimately takes place by executing these four commands on your s
 Let’s move on by adding this to the deployment job in your `.gitlab-ci.yml`:
 
 ```yaml
-deploy:
   environment:
     name: production
     url: http://$SERVER_IP
