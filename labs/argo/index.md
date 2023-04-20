@@ -141,7 +141,7 @@ So it looks like this
 
 Save the file and exit the editor. 
 
-Confirm you can access the Argo webUI in a browser by visting `https://<IP_from_spreadsheet>`
+Confirm you can access the Argo webUI in a browser by visting `https://<IP_from_spreadsheet>:30502`
 
 Accept the warning and you should see something like this: 
 
