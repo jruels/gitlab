@@ -279,6 +279,8 @@ Next, add the following to your `.gitlab-ci.yml` file:
 publish:
   image: docker:latest
   stage: publish
+  tags:
+    - deploy
   services:
     - docker:dind
   script:
@@ -383,6 +385,8 @@ variables:
 publish:
   image: docker:latest
   stage: publish
+  tags:
+    - deploy
   services:
     - docker:dind
   script:

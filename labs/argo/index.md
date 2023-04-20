@@ -163,7 +163,7 @@ This in turn provides the `argocd` command. Before using it, you’ll want to us
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 ```
 
-You can then log into your Argo CD dashboard by going back to `localhost:8080` in a browser and logging in as the `admin` user with your own password:
+You can then log into your Argo CD dashboard by going back to `https://<IP FROM SPREADSHEET>:30502` in a browser and logging in as the `admin` user with your own password:
 
 <img src="images/image-20230419230710070.png" alt="image-20230419230710070" style="zoom:50%;" />
 
