@@ -294,7 +294,7 @@ kubectl edit svc helm-guestbook
 
 Under the **ports** section, change the following: 
 
-* the **http** `nodePort` to `305013`
+* the **http** `nodePort` to `30503`
 
 So it looks like this
 
