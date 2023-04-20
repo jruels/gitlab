@@ -280,7 +280,7 @@ publish:
   image: docker:latest
   stage: publish
   tags:
-    - deploy
+    - deployment
   services:
     - docker:dind
   script:
@@ -385,7 +385,7 @@ publish:
   image: docker:latest
   stage: publish
   tags:
-    - deploy
+    - deployment
   services:
     - docker:dind
   script:
