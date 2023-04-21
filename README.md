@@ -19,3 +19,8 @@ Lab 8: [GitLab Continuous Deployment Pipeline](labs/gl_deploy)
 
 ### Day 4
 Lab 9: [Argo CD deployment](labs/argo)   
+
+### Day 5
+Lab 10: [GitLab GitOps Pipeline](labs/gl_k8s)  
+Lab 11: [GitLab GitOps Secrets](labs/gl_secrets)  
+
