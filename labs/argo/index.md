@@ -170,7 +170,7 @@ You can then log into your Argo CD dashboard by going back to `https://<IP FROM 
 Once everything is working, you can use the same credentials to log in to Argo CD via the command line, by running `argocd login`. This will be necessary for deploying from the command line later on:
 
 ```bash
-argocd login `<IP_FROM_SPREADSHEET>:30502`
+argocd login <IP_FROM_SPREADSHEET>:30502
 ```
 
 You’ll receive the equivalent certificate warning again on the command line here, and should enter `y` to proceed when prompted. If desired, you can then change your password to something more secure or more memorable by running `argocd account update-password`. After that, you’ll have a fully working Argo CD configuration. In the final steps of this tutorial, you’ll learn how to use it to actually deploy some example applications.
