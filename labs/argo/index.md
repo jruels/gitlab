@@ -177,7 +177,7 @@ You’ll receive the equivalent certificate warning again on the command line he
 
 ## Handling Multiple Clusters (Optional)
 
-Because we only have one cluster, the following is not application. It is good information for future deployments though.
+Because we only have one cluster, the following is not applicable. It is good information for future deployments though.
 
 Before deploying an application, you should review where you actually want to deploy it. By default, Argo CD will deploy applications to the same cluster that Argo CD itself is running in, which is fine for a demo, but is probably not what you’ll want in production. In order to list all of the clusters known to your current machine, you can use `kubectl config`:
 
@@ -195,7 +195,7 @@ argocd cluster add target-k8s
 
 This will add the additional cluster’s login details to Argo CD, and enable Argo CD to deploy services on the cluster.
 
-## Deploying an Example Application (Optional)
+## Deploying an Example Application
 
 Now that you have Argo CD running and you have an understanding of how to deploy applications to different Kubernetes clusters, it’s time to put it into practice. Use this repository of example applications that have been architected to showcase GitOps fundamentals. Many of these examples are ports of the same `guestbook` demo app to different kinds of Kubernetes manifests, such as [Jsonnet](https://jsonnet.org/). In this case, you’ll be deploying the `helm-guestbook`example, which uses a [Helm chart](https://github.com/argoproj/argocd-example-apps/blob/master/helm-guestbook/Chart.yaml), one of the most durable Kubernetes management solutions.
 
